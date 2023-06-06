@@ -23,7 +23,7 @@ function setup(){
     canvas = createCanvas(100,100);
     background(0,255,0);
     canvas.parent("canvas-holder");
-    noSmooth();
+    //noSmooth();
     resizeCanvas(canvasHolder.clientWidth, canvasHolder.clientHeight);
 
     camera2d = new Camera2D();
