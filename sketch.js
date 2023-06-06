@@ -52,7 +52,7 @@ function draw(){
         imageHeight : 200
     });
     
-    //image(vid,-50,-30,100,100);
+    image(images[1],-50,-30,1000,1000);
 
 
     camera2d.applyTransformations();
