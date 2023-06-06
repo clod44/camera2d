@@ -58,8 +58,7 @@ function draw(){
     camera2d.applyTransformations();
     pop();
 
-    //grids and debug
-    camera2d.showDebugValues();
+    //show grids and debug values
     image(camera2d.graphics, 0, 0, width, height);
 
 
